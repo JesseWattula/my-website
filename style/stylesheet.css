@@ -77,58 +77,6 @@ Main Dashboard
 }
 
 /*
-Cards
-*/
-
-.Card {
-    background: white;
-    border-radius: 12px;
-    padding: 1rem;
-    box-shadow: 0 2px 8px black
-}
-
-.Card:hover {
-    transform: translate(-5px);
-    transition: transform 0.2ss ease;
-}
-
-.Card h2 {
-    margin-bottom: 0.5rem;
-    font-size: 1.1rem;
-}
-
-.Card p {
-    font-size: 0.9rem;
-    color: gray;
-}
-
-/*
-Grid
-*/
-.wide {
-    grid-column: span 2;
-}
-
-.tall {
-    grid-row: span 2;
-}
-
-/*
-stats Grid
-*/
-.Stats {
-    grid-column: span 3;
-}
-
-.Stat-box {
-    background: blue;
-    color: white;
-    padding: 1rem;
-    border-radius: 10px;
-    text-align: center;
-}
-
-/*
 footer
 */
 footer {
