@@ -58,7 +58,7 @@ Sidebar styling
 }
 
 .sidebar a:hover {
-    background: rgb(207, 108, 108);
+    background: rgb(95, 149, 248);
     transform: scale(1.1);
     color: white;
 }
