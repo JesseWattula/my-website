@@ -64,6 +64,14 @@ Sidebar styling
 }
 
 /*
+image Size
+*/
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+/*
 Main Dashboard
 */
 
