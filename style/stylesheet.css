@@ -132,3 +132,17 @@ footer + p{
 a[href^="https://"] {
   color: green;
 }
+
+/*Books-Panel */
+.Pets-Panel {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.Pets-Panel {
+    background-color:rgb(24, 28, 34);;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+}
