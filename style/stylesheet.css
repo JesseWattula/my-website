@@ -124,7 +124,7 @@ footer {
 
 footer + p{
     grid-column: span 3;
-    text-align: center;
-    padding: 1rem;
+    text-align: left;
+    padding: 2rem;
     color: rgb(122, 122, 122);
 }
