@@ -106,7 +106,8 @@ Main Dashboard
 }
 
 .Books-Panel {
-    background-color:rgb(24, 28, 34);;
+    background-color: rgb(24, 28, 34);
+    ;
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 16px;
@@ -122,7 +123,7 @@ footer {
     color: white;
 }
 
-footer + p{
+footer+p {
     grid-column: span 3;
     text-align: left;
     padding: 2rem;
@@ -130,10 +131,10 @@ footer + p{
 }
 
 a[href^="https://"] {
-  color: green;
+    color: green;
 }
 
-/*Books-Panel */
+/*Pets-Panel */
 .Pets-Panel {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -141,8 +142,20 @@ a[href^="https://"] {
 }
 
 .Pets-Panel {
-    background-color:rgb(24, 28, 34);;
+    background-color: rgb(24, 28, 34);
+    ;
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 16px;
+}
+
+
+@media screen and (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
 }
