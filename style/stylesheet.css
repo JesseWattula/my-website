@@ -118,6 +118,13 @@ footer
 footer {
     grid-column: span 3;
     text-align: center;
-    padding: 1rem;
+    padding: .5rem;
     color: white;
+}
+
+footer + p{
+    grid-column: span 3;
+    text-align: center;
+    padding: 1rem;
+    color: rgb(122, 122, 122);
 }
